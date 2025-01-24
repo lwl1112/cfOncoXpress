@@ -1,5 +1,6 @@
 # Weiling Li (wel4007@med.cornell.edu)
 # Marjorie Roskes (mcl4001@med.cornell.edu)
+# power calculation
 
 import numpy as np
 import pandas as pd
