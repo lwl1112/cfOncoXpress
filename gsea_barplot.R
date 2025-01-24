@@ -1,4 +1,5 @@
 # Weiling Li (wel4007@med.cornell.edu)
+# ISMB2025 proceedings: Fig.6
 
 setwd('/Users/wel4007/Documents/Github/cfOncoPath/GSEAdata/output/')
 library(readr)
