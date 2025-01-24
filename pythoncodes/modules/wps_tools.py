@@ -1,3 +1,5 @@
+# Marjorie Roskes (mcl4001@med.cornell.edu)
+
 from modules import bam_tools, bed_tools, chrom_tools, logger_tools
 
 import job_lock

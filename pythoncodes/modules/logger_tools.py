@@ -1,3 +1,5 @@
+# Marjorie Roskes (mcl4001@med.cornell.edu)
+
 import logging
 import os
 

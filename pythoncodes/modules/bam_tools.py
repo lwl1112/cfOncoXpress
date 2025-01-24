@@ -1,3 +1,5 @@
+# Marjorie Roskes (mcl4001@med.cornell.edu)
+
 from modules import misc_tools
 
 import collections

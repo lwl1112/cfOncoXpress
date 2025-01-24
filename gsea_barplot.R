@@ -1,4 +1,5 @@
-#gsea_barplot.R
+# Weiling Li (wel4007@med.cornell.edu)
+
 setwd('/Users/wel4007/Documents/Github/cfOncoPath/GSEA/output/')
 library(readr)
 library(forcats)

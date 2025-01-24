@@ -1,3 +1,5 @@
+# Marjorie Roskes (mcl4001@med.cornell.edu)
+
 import methodtools
 import numpy as np
 import pandas as pd

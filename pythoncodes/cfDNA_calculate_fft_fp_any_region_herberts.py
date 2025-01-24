@@ -1,3 +1,6 @@
+# Marjorie Roskes (mcl4001@med.cornell.edu)
+# Weiling Li (wel4007@med.cornell.edu)
+
 from modules import bam_tools, chrom_tools, misc_tools, logger_tools
 
 import argparse
