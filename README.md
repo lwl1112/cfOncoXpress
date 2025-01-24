@@ -18,9 +18,9 @@ cfDNA_short_long_fragments.sh
 
 ## Generating cfDNA features in promoter regions
 ```
-cfDNA_simpson.sh
-cfDNA_features.sh
-cfDNA_featmat.sh
+cfDNA_simpson_DTB-097-Progression.sh
+cfDNA_features_DTB-097-Progression.sh
+cfDNA_mat_DTB-097-Progression.sh
 ```
 ## Model
 ## Figures for ISMB 2025
