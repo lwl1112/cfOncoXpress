@@ -29,7 +29,7 @@ jobregionwindow=1000000
 
 for i in $(seq 1 ${SLURM_CPUS_PER_TASK}); do
     export LOG_SUBJOB=$i
-    python -u ../pythoncodes/cfDNA_wps.py --wps-k ${wpsk} --relevant-read-size ${relevantreadsize} --job-region-window ${jobregionwindow} --wps-tau ${wpstau} --wps-lambda ${wpslambda} --wps-alpha ${wpsalpha} &
+    python -u python/cfDNA_wps.py --wps-k ${wpsk} --relevant-read-size ${relevantreadsize} --job-region-window ${jobregionwindow} --wps-tau ${wpstau} --wps-lambda ${wpslambda} --wps-alpha ${wpsalpha} &
 done
 
 exitcode=0

@@ -27,7 +27,7 @@ date
 
 for i in $(seq 1 ${SLURM_CPUS_PER_TASK}); do
     export LOG_SUBJOB=$i
-    python -u ../pythoncodes/cfDNA_split_bam_per_chrom.py &
+    python -u python/cfDNA_split_bam_per_chrom.py &
 done
 
 exitcode=0

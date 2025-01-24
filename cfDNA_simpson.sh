@@ -14,5 +14,5 @@ date
 cd
 source .bashrc
 python --version
-python ../pythoncodes/cfDNA_compute_simpson_entropy_in_bins.py --sample-id DTB-097-Progression-cfDNA --bed-path ../csv_files/finalentropy1k.bed --out-dir csv_files/ --min-fragment-length 100 --max-fragment-length 300 --quality-threshold 20
+python python/cfDNA_compute_simpson_entropy_in_bins.py --sample-id DTB-097-Progression-cfDNA --bed-path csv_files/finalentropy1k.bed --out-dir csv_files/ --min-fragment-length 100 --max-fragment-length 300 --quality-threshold 20
 date
