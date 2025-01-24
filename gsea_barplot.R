@@ -1,6 +1,6 @@
 # Weiling Li (wel4007@med.cornell.edu)
 
-setwd('/Users/wel4007/Documents/Github/cfOncoPath/GSEA/output/')
+setwd('/Users/wel4007/Documents/Github/cfOncoPath/GSEAdata/output/')
 library(readr)
 library(forcats)
 library(dplyr)
