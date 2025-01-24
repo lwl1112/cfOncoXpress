@@ -47,7 +47,7 @@ ggarrange(ar, ne, ncol=1)
 
 
 ggsave(
-   filename='gsea_barplot.jpg',
+   filename='Fig. 6.jpg',
    plot = last_plot(),
    width = 20, height = 20
  )
