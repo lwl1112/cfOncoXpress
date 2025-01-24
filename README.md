@@ -23,9 +23,13 @@ cfDNA_features_DTB-097-Progression.sh
 cfDNA_mat_DTB-097-Progression.sh
 ```
 ## Running the model
+```
 experiments.sh
+```
 ## Correlation results for samples with matched RNA-seq
+```
 results.sh
+```
 ## Figures for ISMB 2025
 ```
 ismb2025figs.ipynb
