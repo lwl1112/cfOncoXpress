@@ -32,6 +32,6 @@ results.sh
 ```
 ## Figures for ISMB 2025
 ```
-ismb2025figs.ipynb
+<a href='ismb2025figs.ipynb'>ismb2025figs.ipynb</a>
 gsea_barplot.R
 ```
