@@ -55,5 +55,5 @@ for i in names: #tissueTPM:
         r, p = scipy.stats.pearsonr(np.log2(newmat['TPM'].astype(float)+1),newmat['prediction'])
         corlist.append(r) # same tissue, a list of pred
     corrmat.append(corlist)
-np.savetxt('../csv_files/correlation.final.csv',corrmat,delimiter=",")
+np.savetxt('../csv_files/results/correlation.final.csv',corrmat,delimiter=",")
 

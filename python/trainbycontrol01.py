@@ -57,7 +57,7 @@ import pickle
 for samplename in df[1].values:
     print(samplename)
     
-    bigmat_all=pd.read_csv(f"../csv_files/{samplename}bigmat.csv")#slurm/herberts/
+    bigmat_all=pd.read_csv(f"../csv_files/{samplename}bigmat.csv")#scratch
     test1=pd.DataFrame()
     test1['gene_id']=bigmat_all['# gene_id']##########
     test1['gene_name']=bigmat_all['gene_name']
@@ -83,7 +83,7 @@ for samplename in df[1].values:
     #r, p = scipy.stats.pearsonr(np.log2(outputmat['TPM']+1),outputmat['Prediction'])
     #print(r)
 
-    outputmat.to_csv(f'scratch/wel4007/cfNDA/herberts/exp/csv_files/prediction/{samplename}.csv', index=False)#slurm/herberts/
+    outputmat.to_csv(f'csv_files/prediction/{samplename}.csv', index=False)#scratch
     
     # #gt=np.log2(test1['TPM']+1)
     # #gt = gt.values.reshape(-1, 1)

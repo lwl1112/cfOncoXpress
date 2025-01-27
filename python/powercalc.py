@@ -105,7 +105,7 @@ for i in range(0,len(Ks)):
         newrow ={'K': Ks[i][0], 'ARsize': n2target / complex(Ks[i][0]), 'FoldChange': mu_ar_projs[i] / mu_pbmc_ar_proj}
         new_df = pd.DataFrame([newrow])
         outdf = pd.concat([outdf, new_df], axis=0, ignore_index=True)
-outdf.to_csv(f'../csv_files/fc_1_5.AR.powercalcfinal.txt',header=True,index=False)
+outdf.to_csv(f'../csv_files/results/fc_1_5.AR.powercalcfinal.txt',header=True,index=False)
 
 ######## NE vs pbmc ##########
 # mu_ne_projs = (np.linspace(1, 5, 401)) * mu_pbmcne #mu_ne # tune mu_ar_proj = 1 to 5 (FC) * mu_ne 

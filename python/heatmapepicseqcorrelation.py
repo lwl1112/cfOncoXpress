@@ -75,6 +75,6 @@ for i in names: #epicseqGEP:
     corrmat.append(corlist)
 
 
-np.savetxt('../csv_files/epicseqcorrelation.final.csv',corrmat,delimiter=",")
+np.savetxt('../csv_files/results/epicseqcorrelation.final.csv',corrmat,delimiter=",")
 
 
