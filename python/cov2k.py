@@ -1,3 +1,6 @@
+# Weiling Li (wel4007@med.cornell.edu)
+# generating feature values for each bp in 2k-TSS regions
+
 import sys
 from modules import misc_tools
 
