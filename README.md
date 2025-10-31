@@ -24,7 +24,7 @@ cfDNA_simpson_DTB-097-Progression.sh
 cfDNA_features_DTB-097-Progression.sh
 cfDNA_mat_DTB-097-Progression.sh
 ```
-## Running the model
+## Running the model: SVR regression + copy number correction
 ```
 experiments.sh
 ```
