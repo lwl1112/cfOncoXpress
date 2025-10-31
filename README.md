@@ -30,7 +30,7 @@ experiments.sh
 ```
 results.sh
 ```
-## Figures for ISMB 2025
+## Figures
 <a href='ismb2025figs.ipynb' target='_new'>ismb2025figs.ipynb</a>
 ```
 gsea_barplot.R
